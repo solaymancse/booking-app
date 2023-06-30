@@ -1,0 +1,75 @@
+.header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    z-index: var(--z-fixed);
+   
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    color: var(--heading-color);
+    font-weight: var(--font-semi-bold);
+    letter-spacing: .2rem;
+    font-size: var(--h2-font-size);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu-item{
+    display: flex; 
+    gap: 1rem;
+}
+.nav_menu-item .select-mui{
+    border: none !important;
+}
+
+.nav .logo{
+    width: 70px;
+    height: 60px;
+   
+}
+.form-select-help{
+    background-color: transparent;
+    border: none;
+    color: var(--heading-color);
+    cursor: pointer;
+    font-size: var(--small-font-size);
+    letter-spacing: 1px;
+    width: 60px;
+    font-weight: var(--font-medium);
+    
+
+}
+.form-select-help:focus{
+outline: none;
+box-shadow: none;
+
+}
+.form-select-help>option{
+    background-color: var(--body-color);
+    border: none;
+    color: #333
+    cursor: pointer;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    font-size: var(--small-font-size);
+    border:none;
+
+}
+.form-select-help>option:hover{
+   
+    color: #333
+    cursor: pointer;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    font-size: var(--small-font-size);
+    border:none;
+
+}
